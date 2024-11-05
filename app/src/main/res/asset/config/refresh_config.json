@@ -1,0 +1,29 @@
+{
+  "taxSeasonConfig": {
+    "startMonth": 1,
+    "endMonth": 4,
+    "businessHours": {
+      "startHour": 9,
+      "endHour": 17
+    }
+  },
+  "refreshIntervals": {
+    "taxSeason": {
+      "businessHours": 30,
+      "offHours": 120
+    },
+    "offSeason": {
+      "regular": 240
+    }
+  },
+  "retryPolicy": {
+    "maxAttempts": 3,
+    "initialDelayMinutes": 1,
+    "maxDelayMinutes": 30,
+    "backoffMultiplier": 2.0
+  },
+  "cachePolicy": {
+    "standardTtlMinutes": 15,
+    "extendedTtlMinutes": 240
+  }
+}
