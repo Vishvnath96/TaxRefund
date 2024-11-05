@@ -1,0 +1,18 @@
+{
+  "processing": {
+    "defaultProcessingDays": 21,
+    "maxProcessingDays": 45,
+    "minProcessingDays": 7
+  },
+  "thresholds": {
+    "highLoad": 0.8,
+    "accuracy": 0.7,
+    "overestimate": 1.5,
+    "underestimate": 0.5
+  },
+  "confidence": {
+    "fallback": 0.6,
+    "minimum": 0.4,
+    "high": 0.8
+  }
+}
